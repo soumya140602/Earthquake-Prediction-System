@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="second.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+
+</head>
+
+<body>
+  <style>
+    .navbar-brand {
+      width: 500px;
+      left: 15px;
+      height: 50px;
+    }
+  </style>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="Analysis/fourth.html" rel="import" />
+  <!-- Image and text -->
+  
+  <nav>
+    <ul>
+           <li><a href="#">Contact</a></li>
+      <li><a href="home.html">Analysis</a></li>
+      <li><a href="#about">About </a></li>
+      <li><a href="#home">Home</a></li>
+    </ul>
+  </nav>
+
+<div id="home">
+
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="carousel-slide">
+      <div class="image-container">
+        <img src="e1.jpg" alt="Image 1" class="image">
+        <div class="image-text">
+          Earthquake Prediction System: Be Prepared, Stay Safe
+        </div>
+      </div>
+      
+    </div>
+    <div class="carousel-slide">
+      <div class="image-container">
+        <img src="e3.jpg" alt="Image 1" class="image">
+        <div class="image-text">
+          Early Warning: Earthquake Alert System"
+        </div>
+      </div>
+    </div>
+    <!-- Repeat similar structure for other slides -->
+    <div class="carousel-slide">
+      <div class="image-container">
+        <img src="e5.jpg" alt="Image 1" class="image">
+        <div class="image-text">
+          Emergency Earthquake Alerts: Your Safety Matters
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+ 
+
+
+  </div>
+  <div class="dots_container" id="indicator"></div>
+</div>
+</div>
+
+  <div id="about">
+    <div class="responsive-container-block bigContainer">
+      <div class="responsive-container-block Container bottomContainer">
+        <div class="allText bottomText">
+          <p class="text-blk headingText">
+            About Us
+          </p>
+          <p class="text-blk subHeadingText">
+            We build to your bespoke
+          </p>
+          <p class="text-blk description">
+            Welcome to the Earthquake Alert System. We're committed to providing timely and accurate earthquake information for your safety. Our expert team combines cutting-edge technology and seismic knowledge to deliver real-time monitoring and customizable alerts. We empower you with educational resources and a supportive community, fostering preparedness. Your security is paramount; we uphold strict data privacy standards. Join us in our mission to create a safer world. Stay connected for the latest updates and insights.
+          </p>
+         
+        </div>
+        <div class="videoContainer">
+          <iframe allowfullscreen="allowfullscreen" class="mainVideo" controls="controls" src="NEWEARTHQUAKE.mp4">
+          </iframe>
+          <img class="dotsImg image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg">
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <section>
+      <div class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container bottomContainer">
+          <div class="allText bottomText">
+            <p class="text-blk headingText">
+              Analysis
+            </p>
+            <p class="text-blk subHeadingText">
+              Start Analysis
+            </p>
+            <p class="text-blk description">
+              
+The analysis section encompasses a comprehensive examination of the earthquake's key aspects. It encompasses seismic magnitude, epicenter location, and affected regions. Detail the extent of structural damage, ground shaking intensity, and potential aftershocks. Explore socio-economic impacts, infrastructure vulnerabilities, and emergency response effectiveness. Conclude by discussing implications for disaster mitigation, urban planning, and seismic risk reduction strategies.
+            </p>
+           
+          </div>
+            <div class="analysis-section">
+              <a href="Analysis/fourth.html" class="analysis-button" id="analysisBtn">Analysis</a>
+              <div class="analysis-results" id="analysisResults">
+                <!-- Analysis results will be displayed here -->
+              </div>
+            </div>
+        
+            
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+
+  <section>
+    <form action="insert.php"  method="POST">
+    <div class="background">
+      <div class="cont">
+        <div class="screen">
+          <div class="screen-header">
+            <div class="screen-header-left">
+              <div class="screen-header-button close"></div>
+              <div class="screen-header-button maximize"></div>
+              <div class="screen-header-button minimize"></div>
+            </div>
+            <div class="screen-header-right">
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+            </div>
+          </div>
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>CONTACT</span>
+                <span>US</span>
+              </div>
+              <div class="app-contact">CONTACT INFO : +91 9871827554</div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="NAME" >
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="EMAIL">
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="CONTACT">
+                </div>
+                <div class="app-form-group message">
+                  <input class="app-form-control" placeholder="MESSAGE">
+                </div>
+                <div class="app-form-group buttons">
+                  <button class="app-form-button">CANCEL</button>
+                  <button class="app-form-button">SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+          </a>
+        </div>
+      </div>
+    </div>
+    </form>
+    
+          
+  </section>
+
+  <section>
+    <footer>
+      <span>Created By <a href="https://www.sharmakavya6525@gmail.com">KSP</a> | <span
+          class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+  </section>
+
+
+  <script src="third.js"></script>
+  <script src="Analysis/generators.js"></script>
+  <script src="Analysis/model.js"></script>
+
+
+
+
+</body>
+
+</html>
